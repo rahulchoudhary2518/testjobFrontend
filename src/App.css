@@ -1,0 +1,60 @@
+.error {
+  margin: 0;
+  font-size: 90%;
+  color: tomato;
+}
+.centerAlign {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btnAddchange button{
+  background: transparent;
+  border: 0px;
+  color: #0080d0;
+  margin: 15px 0px;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+.inputField {
+  height: 25px;
+  margin: 5px 0px;
+  width: 300px;
+  margin-right: 9px;
+  padding: 5px;
+}
+.multipleMail{
+  height: 150px;
+  border: 1px solid #a8a8a8;
+  width: 65%;
+}
+.multipleMail input{
+  display: inline-block;
+  float: none;
+  width: 120px;
+  min-width: 30px;
+  border: none;
+  outline: none;
+}
+.multipleMail input:focus{
+  outline: 0px;
+}
+.tag-item {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0px 13px;
+  border-radius: 16px;
+  background-color: #eef2f3;
+  margin: 5px 5px;
+  display: inline-block;
+  outline: none;
+}
+.tag-item button{
+  background: transparent;
+  border: 0px;
+  font-size: 17px;
+}
+button{
+  cursor: pointer;
+}
